@@ -2,7 +2,6 @@
 # Empréstimo & Devolução — Equipe 3 (Python, TDD)
 
 Este repositório inicia no **estágio RED** do TDD para o primeiro teste.  
-Siga o passo a passo do arquivo de instruções do ChatGPT para fazer os commits **[TDD red] → [TDD green] → [TDD refactor]**.
 
 ## Rodar testes
 ```bash
