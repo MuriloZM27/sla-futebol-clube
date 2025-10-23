@@ -21,27 +21,27 @@ O foco é evidenciar o processo de TDD por meio dos commits no GitHub e demonstr
 emprestimo_devolucao/
 │
 ├── src/
-│   └── emprestimo/
-│       ├── domain.py              # Entidade Loan + helpers de serialização
-│       ├── service.py             # Lógica principal de empréstimo/devolução
-│       └── adapters/
-│           ├── users_http.py      # Adapter de integração com o serviço de Usuários
-│           └── catalog_http.py    # Adapter de integração com o serviço de Catálogo
+│ └── emprestimo/
+│ ├── domain.py # Entidade Loan + helpers de serialização
+│ ├── service.py # Lógica principal de empréstimo/devolução
+│ └── adapters/
+│ ├── users_http.py # Adapter de integração com o serviço de Usuários
+│ └── catalog_http.py # Adapter de integração com o serviço de Catálogo
 │
 ├── tests/
-│   ├── unit/
-│   │   ├── contract/              # Testes de contrato (integração)
-│   │   │   ├── test_user_contract.py
-│   │   │   ├── test_catalog_contract.py
-│   │   │   ├── test_loan_dto_contract.py
-│   │   │   └── test_flow_side_effects.py
-│   │   ├── test_loan_creation.py
-│   │   ├── test_return_book.py
-│   │   ├── test_limits.py
-│   │   ├── test_edge_cases.py
-│   │   └── ...
-│   ├── conftest.py
-│   └── pytest.ini
+│ ├── unit/
+│ │ ├── contract/ # Testes de contrato (integração)
+│ │ │ ├── test_user_contract.py
+│ │ │ ├── test_catalog_contract.py
+│ │ │ ├── test_loan_dto_contract.py
+│ │ │ └── test_flow_side_effects.py
+│ │ ├── test_loan_creation.py
+│ │ ├── test_return_book.py
+│ │ ├── test_limits.py
+│ │ ├── test_edge_cases.py
+│ │ └── ...
+│ ├── conftest.py
+│ └── pytest.ini
 │
 ├── requirements.txt
 └── README.md
