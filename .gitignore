@@ -45,3 +45,6 @@ ENV/
 # IDE
 .vscode/
 .idea/
+
+# Relatório de cobertura
+htmlcov/
