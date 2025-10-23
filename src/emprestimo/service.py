@@ -36,3 +36,18 @@ class LoanService:
         )
         self._loans[loan.id] = loan
         return loan
+    from datetime import datetime, timezone  # já está importado acima
+
+    def return_book(self, loan_id: str):
+        loan = self._loans.get(loan_id)
+        if not loan:
+            raise LoanError("Empréstimo inexistente")
+
+        if loan.status == "returned":
+            raise LoanError("Empréstimo já devolvido")
+
+        self.catalog.mark_available(loan.book_id)
+        loan.status = "returned"
+        loan.return_date = datetime.now(timezone.utc)
+        return loan
+
