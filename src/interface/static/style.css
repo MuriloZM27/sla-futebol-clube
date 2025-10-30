@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background: #eaeaea;
+  }
+  
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007acc;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  

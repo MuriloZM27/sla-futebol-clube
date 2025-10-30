@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Empréstimo e Devolução</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Bem-vindo ao Sistema de Empréstimo e Devolução</h1>
+  <nav>
+    <a href="{{ url_for('emprestimos') }}">Empréstimos</a> |
+    <a href="{{ url_for('devolucoes') }}">Devoluções</a>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Empréstimos</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Controle de Empréstimos</h1>
+  <table id="loan-table">
+    <thead>
+      <tr><th>ID</th><th>Usuário</th><th>Livro</th><th>Status</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
